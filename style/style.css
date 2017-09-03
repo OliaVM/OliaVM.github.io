@@ -5,15 +5,14 @@ body {
 h1 {
 	color: #7d2779;
 }
-h2.redcolor {
-	color: #c70000;
-}
+
 #box1 {
 	background-color: #ebc5eb;
 	text-align: center;
 }
 #box2 {
 	background-color: #FFBBFF;
+	text-align: center;
 }
 #box3 {
 	background-color: #FFF0F5;
