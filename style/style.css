@@ -1,12 +1,14 @@
 body {
-	font-size: 12pt;
 	font-family: "times new roman";
+	font-size: 20pt;
 }
 h1 {
 	color: #ffffff;
 }
+
 li {
-	font-size: 16pt;
+	list-style: none;
+	line-height: 40px;
 }
 
 #box1 {
@@ -16,6 +18,7 @@ li {
 #box2 {
 	background-color: #e6e6f2;
 	text-align: center;
+	
 }
 #box3 {
 	background-color: #3b5998;
