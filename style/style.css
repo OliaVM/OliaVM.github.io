@@ -1,20 +1,23 @@
 body {
 	font-size: 12pt;
-	font-family: times new roman;
+	font-family: "times new roman";
 }
 h1 {
-	color: #7d2779;
+	color: #ffffff;
+}
+li {
+	font-size: 16pt;
 }
 
 #box1 {
-	background-color: #ebc5eb;
+	background-color: #3b5998;
 	text-align: center;
 }
 #box2 {
-	background-color: #FFBBFF;
+	background-color: #e6e6f2;
 	text-align: center;
 }
 #box3 {
-	background-color: #FFF0F5;
+	background-color: #3b5998;
 	text-align: center;
 }
