@@ -10,6 +10,9 @@ li {
 	list-style: none;
 	line-height: 40px;
 }
+#box4 li {
+	list-style: disc;
+}
 
 #box1 {
 	background-color: #3b5998;
@@ -18,7 +21,11 @@ li {
 #box2 {
 	background-color: #e6e6f2;
 	text-align: center;
-	
+}
+#box4 {
+	background-color: #e6e6f2;
+	line-height: 1.5; 
+	font-size: 14pt;
 }
 #box3 {
 	background-color: #3b5998;
