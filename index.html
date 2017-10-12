@@ -8,24 +8,33 @@
 	  <script type="text/javascript" src="js/bootstrap.min.js"></script>
 	  <meta name="viewport" content="width=device-width, initial-scale = 1.0">
 	  <link type="text/css" rel="stylesheet" href="style/bootstrap-responsive.css">
+	  <link href="fly_sidemenu.css" rel="stylesheet" type='text/css'>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+		<script src="jquery.fly_sidemenu.js"  type="text/javascript"></script>
+		<script>
+			$(function(){
+				$(".sidemenu").fly_sidemenu();
+				hideButton: false 
+			});
+		</script>
 	</head>
 	<body>
 		<div class="row-fluid">
 		  <div class="span12" id="box1">
-		  	<br>
-			<br>
 		    <h1>Projects</h1>
-		    <br>
-			<br>
 		  </div>
 		</div>
 	
 		<div class="row-fluid">
 		  	<div class="span3" id="box2">
-		      		<br>
-		    		<br>
-		    		<br>
-					<h2>Projects</h2>
+		      		<h2>Projects</h2>
+		      		<ul class="sidemenu">
+						<li><a href="https://github.com/OliaVM/finalProject/tree/project">Лента новостей</a></li>
+						<li><a href="https://github.com/OliaVM/messenger">Messenger</a></li>
+						<li><a href="https://github.com/OliaVM/tasks">Викторина</a></li>
+						<li><a href="https://github.com/OliaVM/dataSorter">Консольный php-скрипт "Сортировка содержимого файла методом вставок"</a></li>
+					</ul>
+		      		<p>
 			    	<ul id="menu"> 
 						<li><a href="https://github.com/OliaVM/finalProject/tree/project">Лента новостей</a></li>
 						<li><a href="https://github.com/OliaVM/messenger">Messenger</a></li>
@@ -34,7 +43,7 @@
 					</ul>
 					<br>
 		    		<br>
-		    		<br>
+		    		</p>
 			</div>
 
 			<div class="span6" id="box4">
@@ -51,7 +60,7 @@
 				<p>specialist</p>
 			</div>
 
-			<div class="span3" id="box4">
+			<div class="span3" id="box5">
 				<h2>Technologies</h2>
 				<ul>
 				    <li>Php, MySQL</li>
@@ -69,11 +78,7 @@
 
 		<div class="row-fluid">
 		  <div class="span12" id="box3">
-		  	<br>
-			<br>
 		    <h1>2017</h1>
-		    <br>
-			<br>
 		  </div>
 		</div>
 	</body>

@@ -15,19 +15,26 @@ li {
 }
 
 #box1 {
-	background-color: #3b5998;
+	background-color: #ab96a5;
 	text-align: center;
 }
 #box2 {
 	background-color: #e6e6f2;
-	text-align: center;
+	padding: 20px;
 }
 #box4 {
 	background-color: #e6e6f2;
 	line-height: 1.5; 
 	font-size: 14pt;
+	padding: 20px;
+}
+#box5 {
+	background-color: #e6e6f2;
+	line-height: 1.5; 
+	font-size: 14pt;
+	padding: 20px;
 }
 #box3 {
-	background-color: #3b5998;
+	background-color: #ab96a5;
 	text-align: center;
 }
